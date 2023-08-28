@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient(circle,rgb(251, 63, 242) 0%, rgb(243, 11, 65) );
+    min-height: 100vh;
+    display: flex;
+    font-family: 'Ubuntu',sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    width: 100%;
+    min-height: 350px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin-bottom: 10px;
+    margin-left: 90px;
+}
+
+.card {
+    background: radial-gradient(circle,rgb(208, 10, 43) 0%, rgb(248, 48, 234) );
+    width: 350px;
+    margin-left: 40px;
+}
+
+.card img {
+    width: 350px;
+}
+
+.card_1 {
+    background: radial-gradient(circle,rgb(208, 10, 43) 0%, rgb(248, 48, 234) );
+    width: 500px;
+}
+
+.card p {
+    margin-left: 40px;
+}
+
+.card_1 h1 {
+    color: yellow;
+    margin-left: 100px;
+}
+
+.card_1  #btn_1 {
+    margin-left: 170px;
+}
+
+#search {
+    width: 500px;
+    margin-left: 30%;
+    border: none;
+    border-bottom: 2px solid #9e9e9e;
+}
+
+#search:hover {
+    border-bottom: 3px solid #0a6c55;
+}
+
+#btnForm {
+    height: 40px;
+    width: 70px;
+    border: 3px solid rgb(255, 0, 81);
+    background-color: rgb(251, 63, 242);
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 900;
+    color: rgb(255, 0, 81);
+}
+
+#btnForm:hover {
+    border: 3px solid rgb(0, 0, 255) ;
+    background-color: rgb(183, 8, 163);
+    color: blue;
+    font-weight: 700;
+}
+
+.src {
+    width: 500px;
+    height: 400px;
+}
+
+span{
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(255, 235, 17);
+    font-weight: 800;
+}
+
+.Cardretcips {
+    display: none;
+    width: 500px;;
+    min-height: 500px;
+    background: radial-gradient(circle,rgb(251, 63, 242) 0%, rgb(243, 11, 65) );
+    margin-left: 510px;
+}
+
+.Cardretcips h1 {
+    margin-left: 90px;
+    color: aqua;
+}
